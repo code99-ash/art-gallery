@@ -12,6 +12,7 @@
         'database'  => $_ENV['DATABASE_NAME'],
         'username'  => $_ENV['DATABASE_USER'],
         'password'  => $_ENV['DATABASE_PASSWORD'],
+        'port'      => $_ENV['DATABASE_PORT'],
         'charset'   => 'utf8',
         'collation' => 'utf8_unicode_ci',
         'prefix'    => '',
